@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./index.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Logitetk</title>
+</head>
+<body class="animated-bg-landing">
+  <header class="navbar">
+    <a class="logo" href="index.html"><img src="img/logo.svg" alt="Logo"></a>
+    <ul class="nav-links container mar-1 ali-center w-max-1000">
+      <li><a href="Productos.html">Productos</a></li>
+      <li><a href="Suscripcion.html">Novedad</a></li>
+      <li><a href="About.html">Sobre Nosotros</a></li>
+    </ul>
+  </header>
+  <div class="container pad-1 mar-3 cont-wrap ali-center just-center flex-column">
+    <div class="info mar-1 just-center w-max-650">
+      <p><strong>Logitetk</strong> es una marca que se ha caracterizado por su innovación y su adaptación a las necesidades de los usuarios. La marca ha apostado por la sostenibilidad ambiental y social, etiquetando sus productos con la cantidad de carbono que emiten y donando fondos para combatir el coronavirus.</p>
+      <p><strong>Logitetk</strong> es una marca que ha evolucionado con el tiempo y que sigue buscando nuevas formas de conectar a las personas a través de la tecnología. Por eso te ofrecemos estar al tanto de las novedades de tus productos favoritos.</p>
+    </div>
+  </div>
+  <div class="container ali-center just-center">
+    <section class="form">
+      <h3>Ingrese su correo para recibir informacion relevante de las ultimas novedades</h3>
+      <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo Electrónico">
+      <p>Estoy de acuerdo con Terminos y Condiciones</p>
+      <input class="button-ref deep-purple-bg" type="submit" onclick="enviar_email()" value="Registrar">
+    </section>
+  </div>
+  <footer class="footer">
+    <p>© Mendez.inc 2023</p>
+  </footer>
+</body>
+</html>

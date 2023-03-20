@@ -1,0 +1,488 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Comic Neue', cursive;
+  color: #231f20;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a {
+  color: #232323;
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 4000;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+strong {
+  color: #2e8285;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 55px;
+  background: #70cbce;
+  top: 0;
+}
+
+.logo {
+  padding: 0 1rem;
+  margin-left: 10px;
+  margin-right: 20px;
+  flex-basis: 50px;
+}
+
+.logo img {
+  cursor: pointer;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0 2rem;
+  flex-basis: 450px;
+  display: flex;
+}
+
+.nav-links li {
+  display: inline-block;
+  font-weight: 900;
+  padding: 0px 22px;
+}
+
+.white-bg {
+  background: #f9f9f9;
+}
+
+.blue-bg {
+  background: #3f9396;
+}
+
+.black-bg {
+  background: #323535;
+}
+
+.purple-bg {
+  background: #f0deff;
+}
+
+.deep-purple-bg {
+  background: #341d47;
+}
+
+.yellow-bg {
+  background-color: #ffd814;
+}
+
+.animated-bg-landing {
+  background: linear-gradient(30deg, );
+  background: linear-gradient(45deg, #51acaf, #ddc6f0, #f9f9f9, #899191, #323535);
+  background-size: 400% 400%;
+  animation: bg-landing 10s ease-in-out infinite;
+}
+
+.info-top {
+  margin-top: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+.info-prods-pad {
+  padding: 1rem 3rem;
+}
+
+.info {
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.info h1 {
+  padding: 1rem 3rem;
+}
+
+.info p {
+  padding: 1.5rem 3rem;
+}
+
+.list-1 {
+  max-width: 850px;
+  padding: 1rem 2em 2rem 2rem;
+  text-align: justify;
+  border-radius: 15px;
+}
+
+.list-1 h3 {
+  font-weight: 600;
+  margin: 1rem 2rem 1.5rem 2rem;
+  color: #2e8285;
+}
+
+.list-1 ul {
+  list-style-image: url('img/dot.png');
+}
+
+.list-1 ul li {
+  margin-right: 2rem;
+  position: relative;
+  left: .5rem;
+  font-size: 18px;
+  font-weight: 500;
+  color: #6f65c2;
+}
+
+.button-ref {
+  border-radius: 14px;
+  border-width: 0;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button-ref:hover {
+  background-color: #2e8285;
+  color: #212124;
+}
+
+.tarjetas {
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.tarjetas p {
+  color: #f5f6f6;
+  font-size: 20px;
+}
+
+.footer {
+  padding: 1.5em 0;
+  margin-top: auto;
+  width: 100%;
+  background-color: #2e8285;
+  text-align: center;
+}
+
+.footer p {
+  color: #f5f6f6;
+}
+
+.container {
+  display: flex;
+}
+
+.container-tarj {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.cont-wrap {
+  flex-wrap: wrap;
+}
+
+.just-center {
+  justify-content: center;
+}
+
+.ali-center {
+  align-items: center;
+}
+
+.img1 {
+  display: flex;
+  padding: 1rem 5rem;
+  justify-content: center;
+}
+
+.img1 img {
+  height: auto;
+}
+
+.img2 {
+  width: 50%;
+  height: auto;
+}
+
+.img-prod {
+  width: 100%;
+  height: auto;
+}
+
+.controls {
+  width: 100%;
+  background: #341d47;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: #f5f6f6;
+}
+
+.form {
+  width: 400px;
+  background: #24303c;
+  padding: 3rem;
+  margin: auto;
+  margin-bottom: 4rem;
+  border-radius: 4px;
+  color: #f5f6f6;
+  box-shadow: 4px 6px 4px #424242;
+}
+
+.form h3 {
+  font-size: 25px;
+  color: #f5f6f6;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.form p {
+  color: #f5f6f6;
+}
+
+.form a {
+  color: #f5f6f6;
+}
+
+.form .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.justify-text {
+  text-align: justify;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.pad-1 {
+  padding: 1rem;
+}
+
+.pad-2 {
+  padding: 2rem;
+}
+
+.pad-3 {
+  padding: 3rem;
+}
+
+.pad-4 {
+  padding: 4rem;
+}
+
+.pad-5 {
+  padding: 5rem;
+}
+
+.mar-_5 {
+  margin: .5rem;
+}
+
+.mar-1 {
+  margin: 1rem;
+}
+
+.mar-2 {
+  margin: 2rem;
+}
+
+.mar-3 {
+  margin: 3rem;
+}
+
+.w-min-600 {
+  min-width: 600px;
+}
+
+.w-min-400 {
+  min-width: 400px;
+}
+
+
+.w-min-250 {
+  min-width: 250px;
+}
+
+.w-max-1000 {
+  max-width: 1000px;
+}
+
+.w-max-650 {
+  max-width: 650px;
+}
+
+.w-max-400 {
+  max-width: 400px;
+}
+
+@keyframes bg-landing{
+  0%{background-position: 0 50%;}
+  50%{background-position: 100% 50%;}
+  100%{background-position: 0 50%;}
+}
+
+@media screen and (max-width: 1350px) {
+  .container {
+    margin: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .container-tarj {
+    margin: .5rem;
+    padding: 1rem;
+  }
+
+  .second-item {
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .container {
+    margin: .5rem;
+  }
+  .tarjetas {
+    padding: .5rem;
+    min-width: 280px;
+    max-width: 600px;
+  }
+  .info {
+    padding: 0 .5rem;
+  }
+  .info h1 {
+    padding: 0 .5rem;
+  }
+  .info p {
+    padding: 1.5rem 1.5rem;
+  }
+  .img1 {
+    padding: .5rem 3rem;
+  }
+  .img-prod {
+    width: 75%;
+  }
+  .img2 {
+    padding: .5rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  h1 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+
+  .logo {
+    padding: 0;
+    margin: 0 10px;
+  }
+
+  .info p {
+    font-size: 14px;
+    padding-top: .5rem;
+    padding-bottom: 0;
+  }
+  .navbar {
+    padding: 15px 30px;
+  }
+  .nav-links li {
+    padding: 0 10px;
+    font-size: 14px;
+  }
+  .container {
+    margin: 0;
+  }
+  .info {
+    padding: 0;
+  }
+  .tarjetas {
+    padding: .5rem;
+    min-width: 240px;
+  }
+  .img1 {
+    padding: .5rem 1.5rem;
+  }
+  .img1 img {
+    width: 50%;
+  }
+  .img2 {
+    width: 65%;
+  }
+  .img-prod {
+    margin-top: .5rem;
+    width: 55%;
+  }
+  .list-1 {
+    text-align: start;
+  }
+  .list-1 ul li {
+    margin: .5rem;
+    font-size: 14px;
+  }
+  .button-ref {
+    padding: .5rem 1rem;
+    font-size: 10px;
+  }
+  .item {
+    min-width: 250px;
+  }
+  .second-item {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body .container {
+    margin: 0;
+  }
+  .logo {
+    margin: 0 5px;
+  }
+  .info p {
+    font-size: 12px;
+    padding-bottom: 0;
+  }
+  .navbar {
+    padding: 10px 24px;
+  }
+  .nav-links li {
+    font-size: 10px;
+  }
+  .list-1 ul li {
+    font-size: 12px;
+  }
+}
